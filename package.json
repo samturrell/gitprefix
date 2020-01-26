@@ -1,11 +1,11 @@
 {
     "name": "gitprefix",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "index.js",
     "license": "MIT",
     "repository": {
-        "type" : "git",
-        "url" : "https://github.com/samturrell/gitprefix.git"
+        "type": "git",
+        "url": "https://github.com/samturrell/gitprefix.git"
     },
     "homepage": "https://github.com/samturrell/gitprefix",
     "dependencies": {
