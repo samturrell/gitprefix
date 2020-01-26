@@ -4,14 +4,14 @@ Gitprefix is a Git `prepare-commit-msg` hook for formatting Git commit messages.
 
 ## Features
 
-- Automatic task branch prefix
+- Automatic task branch prefix (`task/`, `epic/`)
 - Emoji prefixing for certain words:
    - `fix`: 🔧
    - `wip`: 🚧
    - `bug`: 🐛
    - `refactor`: 🔨
    - `revert`: ⏪
-   - `pr `: 👌
+   - `pr`: 👌
    - `initial commit`: 🎉
    - `responsive`: 📱
    - `accessibility':`: ♿️
