@@ -39,7 +39,7 @@ program
 
         logger.info('✅ Hook file created successfully.');
         logger.info(`ℹ️  To add to an existing git project, run \`${ name } init\``);
-        
+
         fs.writeFileSync(hookFilePath, formatterStub, {
             mode: 0o755,
         });
