@@ -14,7 +14,7 @@ Gitprefix is a Git `prepare-commit-msg` hook for formatting Git commit messages.
    - `pr`: 👌
    - `initial commit`: 🎉
    - `responsive`: 📱
-   - `accessibility':`: ♿️
+   - `accessibility`: ♿️
    
 ## Usage
 
