@@ -15,7 +15,14 @@ const EMOJI_REPLACEMENTS = {
     'accessibility': '♿️',
 };
 
-const BRANCH_REPLACEMENTS = ['ref: refs/heads/', '\n', 'task/', 'epic/'];
+const BRANCH_REPLACEMENTS = [
+    'ref: refs/heads/',
+    '\n',
+    'task/',
+    'epic/',
+    'bug/',
+    'hotfix/',
+];
 
 (async function updateCommitMessage() {
     let message = readFileSync(process.argv[2], 'utf8').trim();
