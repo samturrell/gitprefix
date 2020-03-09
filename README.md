@@ -15,8 +15,18 @@ Gitprefix is a Git `prepare-commit-msg` hook for formatting Git commit messages.
    - `initial commit`: 🎉
    - `responsive`: 📱
    - `accessibility`: ♿️
-   
+
 ## Usage
+
+### Prerequisites
+
+You need to have a git template directory set up. You can do this by creating an
+empty directory and adding this config to your `~/.gitconfig`:
+
+```ini
+[init]
+    templatedir = ~/path/to/your/git-template
+```
 
 ### Installation
 
@@ -34,7 +44,7 @@ npx gitprefix init
 
 ### Updating
 
-If the package is ever updated you can run the following command to pull down the new formatter and overwrite the existing file: 
+If the package is ever updated you can run the following command to pull down the new formatter and overwrite the existing file:
 
 ```sh
 npx gitprefix install --overwrite
