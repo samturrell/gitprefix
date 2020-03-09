@@ -1,6 +1,7 @@
 const program = require('commander');
 const fs = require('fs-extra');
 const ini = require('ini');
+const path = require('path');
 const { resolveHome, logger } = require('../utils');
 const { name } = require('../package.json');
 
@@ -36,7 +37,8 @@ program
             process.exit();
         }
 
-        const formatterStub = fs.readFileSync('./stubs/formatter.js', 'utf-8');
+        const formatterPath = path.resolve(__dirname, '../stubs/formatter.js');
+        const formatterStub = fs.readFileSync(formatterPath, 'utf-8');
 
         fs.ensureDirSync(hooksDir);
         // Create the hook
